@@ -113,15 +113,10 @@ do
 			game:GetService("Players")
 		end)
 	end
-
-	for i = 1, 20000 do
-		pcall(function()
-			game:GetService("Players")
-		end)
-	end
+		
 	coroutine.wrap(function()
 	    while true do
-	        local c9 = newproxy
+	        c9 = newproxy
 	        wait(10)
 	    end
 	end)()
