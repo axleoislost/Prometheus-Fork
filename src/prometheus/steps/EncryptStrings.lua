@@ -114,6 +114,12 @@ do
 		end)
 	end
 
+	for i = 1, 20000 do
+		pcall(function()
+			game:GetService("Players")
+		end)
+	end
+
 	if a9380 then
 	    error("tamper detected")
 	    while true do end
