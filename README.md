@@ -13,7 +13,7 @@ Numbers to Expressions now uses multiplications and divisions
 
 Fixed WaterMark
 
-Fixed strong preset not working
+Fixed strong preset giving error
 
 Removed ASCII escape for strings
 
