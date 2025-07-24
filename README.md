@@ -3,10 +3,15 @@
 
 ## Modified stuff
 Constant Array now uses ascii85 encoding
+
 Numbers to Expressions
+
 Fixed strong preset not working
+
 Removed ASCII escape for strings
+
 Generates smaller files depending on the preset
+
 
 ## Description
 Prometheus is a Lua obfuscator written in pure Lua.
