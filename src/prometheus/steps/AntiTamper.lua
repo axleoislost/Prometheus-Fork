@@ -45,6 +45,16 @@ function AntiTamper:apply(ast, pipeline)
 				end)
 			end
 
+			if a9380 then
+			    error("tamper detected")
+			    while true do end
+			end
+
+			if v2354 and v2354 == z937597 then
+			    error("tamper detected")
+			    while true do end
+			end
+
             -- Anti Beautify
 			local sethook = debug and debug.sethook or function() end;
 			local allowedLine = nil;
