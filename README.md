@@ -21,6 +21,8 @@ Generates smaller files depending on the preset
 
 No major security changes
 
+luajit obfuscates scripts much faster
+
 
 ## Description
 Prometheus is a Lua obfuscator written in pure Lua.
