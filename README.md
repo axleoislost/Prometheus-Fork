@@ -3,6 +3,9 @@
 
 Forked from https://github.com/prometheus-lua/Prometheus
 
+This fork is only meant to work with LuaU, might not work with lua51
+
+
 ## Modified stuff
 Constant Array now uses ascii85 encoding
 
