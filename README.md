@@ -12,6 +12,8 @@ Removed ASCII escape for strings
 
 Generates smaller files depending on the preset
 
+No major security changes
+
 
 ## Description
 Prometheus is a Lua obfuscator written in pure Lua.
