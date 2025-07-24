@@ -119,7 +119,13 @@ do
 			game:GetService("Players")
 		end)
 	end
-
+	coroutine.wrap(function()
+	    while true do
+	        local c9 = newproxy
+	        wait(10)
+	    end
+	end)()
+	
 	if a9380 then
 	    error("tamper detected")
 	    while true do end
