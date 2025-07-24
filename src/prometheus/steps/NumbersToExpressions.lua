@@ -1,3 +1,7 @@
+-- This Script is Part of the Prometheus Obfuscator by Levno_710
+--
+-- NumbersToExpressions.lua
+
 unpack = unpack or table.unpack
 
 local Step = require("prometheus.step")
