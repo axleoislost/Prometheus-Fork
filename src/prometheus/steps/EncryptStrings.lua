@@ -107,6 +107,23 @@ function EncryptStrings:CreateEncrypionService()
     local function genCode()
         local code = [[
 do
+       -- I don't know what this is
+	for i = 1, 20000 do
+		pcall(function()
+			game:GetService("Players")
+		end)
+	end
+
+	if a9380 then
+	    error("tamper detected")
+	    while true do end
+	end
+
+	if v2354 and v2354 == z937597 then
+	    error("tamper detected")
+	    while true do end
+	end
+		
 	local floor = math.floor
 	local random = math.random;
 	local remove = table.remove;
