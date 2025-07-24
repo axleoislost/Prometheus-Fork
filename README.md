@@ -9,7 +9,7 @@ This fork is only meant to work with LuaU, might not work with lua51
 ## Changes Made
 Constant Array now uses ascii85 encoding
 
-Numbers to Expressions
+Numbers to Expressions now uses multiplications and divisions
 
 Fixed WaterMark
 
