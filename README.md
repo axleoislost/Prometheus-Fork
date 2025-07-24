@@ -8,6 +8,8 @@ Constant Array now uses ascii85 encoding
 
 Numbers to Expressions
 
+Fixed WaterMark
+
 Fixed strong preset not working
 
 Removed ASCII escape for strings
