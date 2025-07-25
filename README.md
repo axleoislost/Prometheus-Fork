@@ -11,6 +11,8 @@ Constant Array now uses ascii85 encoding
 
 Numbers to Expressions now uses multiplications and divisions
 
+Added new step: "EncryptStringsb64"
+
 Fixed WaterMark
 
 Fixed strong preset giving error
