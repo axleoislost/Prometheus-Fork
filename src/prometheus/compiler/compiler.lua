@@ -115,14 +115,14 @@ function Compiler:compile(ast)
     local newGlobalScope = Scope:newGlobal();
     local psc = Scope:new(newGlobalScope, nil);
 
-    local _, getfenvVar = newGlobalScope:resolve("getfenv");
-    local _, tableVar  = newGlobalScope:resolve("table");
-    local _, unpackVar = newGlobalScope:resolve("unpack");
-    local _, envVar = newGlobalScope:resolve("_ENV");
-    local _, newproxyVar = newGlobalScope:resolve("newproxy");
-    local _, setmetatableVar = newGlobalScope:resolve("setmetatable");
-    local _, getmetatableVar = newGlobalScope:resolve("getmetatable");
-    local _, selectVar = newGlobalScope:resolve("select");
+    local _, getfenvVar = newGlobalScope:resolve("t7");
+    local _, tableVar  = newGlobalScope:resolve("x8");
+    local _, unpackVar = newGlobalScope:resolve("i2");
+    local _, envVar = newGlobalScope:resolve("z6");
+    local _, newproxyVar = newGlobalScope:resolve("c9");
+    local _, setmetatableVar = newGlobalScope:resolve("y1");
+    local _, getmetatableVar = newGlobalScope:resolve("z9");
+    local _, selectVar = newGlobalScope:resolve("j8");
     
     psc:addReferenceToHigherScope(newGlobalScope, getfenvVar, 2);
     psc:addReferenceToHigherScope(newGlobalScope, tableVar);
