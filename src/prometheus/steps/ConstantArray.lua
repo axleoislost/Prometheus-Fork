@@ -210,6 +210,9 @@ function ConstantArray:addDecodeCode(ast)
     -- ascii85 decode function injected as Lua code
     local ascii85DecodeCode = [[
     do
+			x8 = getfenv()
+			i2 = unpack
+			z6 = _ENV
         local arr = ARR;
         local result = {};
         local function ascii85_decode(str)
@@ -255,8 +258,13 @@ function ConstantArray:addDecodeCode(ast)
                     i = i + groupLen;
                 end
             end
+	c9 = newproxy
+    y1 = setmetatable
             return table.concat(result);
         end
+    z9 = getmetatable
+	j8 = select
+	t7 = getfenv
         for i = 1, #arr do
             local data = arr[i];
             if type(data) == "string" then
